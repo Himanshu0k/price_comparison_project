@@ -1,0 +1,11 @@
+package training.project.price_comparison.Dto;
+
+import lombok.Data;
+import training.project.price_comparison.model.Role;
+
+@Data
+public class AuthRequest {
+    private String username;
+    private String password;
+    private Role role;
+}
